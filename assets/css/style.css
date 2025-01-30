@@ -51,7 +51,7 @@ a:hover {
     ***Header Top  Css Start***
 ------------------------------------------------- */
 .header-top {
-    background-color: #04375e;
+    background-color: #4980cd;
     color: var(--white);
     padding: 10px 0;
 }
@@ -83,14 +83,14 @@ a:hover {
 ------------------------------------------------- */
 
 header {
-    background: rgba(229, 150, 39, 0.401);
+    background: rgba(255, 255, 255, 0.8);
     position: absolute;
     padding: 10px 0px;
     width: 100%;
     z-index: 2;
 }
 header .is-sticky .sticky-area {
-    background: #005bda;
+    background: #4980cd;
 	box-shadow: 0 3px 16px -2px #4c4a4ade;
     z-index: 999 !important;
     animation: slideInDown .6s forwards;
@@ -102,11 +102,10 @@ header .is-sticky .sticky-area .factory-text a{
 }
 /* ============sticky=============== */
 header .is-sticky .sticky-area .factory-text{
-	 border: 1px solid var(--white);
+	 
 }
 .factory-text {
     display: inline-block;
-    border: 2px solid #05487b;
     padding: 6px;
 }
 .factory-text h4 {
@@ -159,7 +158,7 @@ header .is-sticky .sticky-area .factory-text{
 		z-index:2;
     }
 	header .is-sticky .sticky-area  ul.sub_menu{
-		  background: #0c1923;;
+		  background: #4980cd;
 	}
     .sub_menu li {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -200,8 +199,16 @@ header .is-sticky .sticky-area .factory-text{
 }
 
 /*==================Slide Area================*/
+.banner-bg-1{
+    background-image: url(../img/banner-bg-4.jpg);
+} 
+.banner-bg-2{
+    background-image: url(../img/banner-bg-3.jpg);
+} 
+.banner-bg-3{
+    background-image: url(../img/banner-bg-2.jpg);
+} 
 .banner_background{
-    background-image: url(../img/slide-bg-1.jpg);
     width: 100%;
     height: 80vh;
     background-position: center;
@@ -217,12 +224,12 @@ header .is-sticky .sticky-area .factory-text{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(5, 33, 104, 0.5); 
+    background-color: rgba(0, 0, 0, 0.1); 
 }
 
 .banner_details h1{
     font-weight:900;
-    color: #ffd700;
+    color: #ffbb00;
     font-size: 2.5rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
@@ -293,27 +300,53 @@ header .is-sticky .sticky-area .factory-text{
     font-size: 2.5rem;
     font-weight: 900;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 2.5rem 1.5rem ;
+    padding: 1.5rem ;
+    padding-top: 2.5rem;
     text-transform: uppercase;
+}
+.why_us_head p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+    line-height: 1;
+    padding: 2.5rem;
+    padding-top: 0;
+}
+.why_us_heading-div{
+    width: 50%;
 }
 .single_why_us{
     box-shadow: rgba(0, 0, 0, 0.1);
 }
+.single_why_us .card-bg-1{
+    background-image: url(../img/sourcing.jpg);
+}
+.single_why_us .card-bg-2{
+    background-image: url(../img/solution.jpg);
+}
+.single_why_us .card-bg-3{
+    background-image: url(../img/supply.jpg);
+}
 .single_why_us .card-top{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
     width: 100%;
     margin: 0;
-    background-color: #005bda;
     position: relative;
     
 }
 .single_why_us .card-top:after{
     content: '';
-    width: 60%;
-    height: 30px;
-    background-color: #ffd700;
+    width: 100%;
+    height: 100%;
+    background-color: #78670891;
     position: absolute;
-    bottom: 0;
+    top: 0;
+    left: 0;
+    opacity: .3;
     
 }
 .single_why_us .card-bottom{
@@ -322,6 +355,12 @@ header .is-sticky .sticky-area .factory-text{
     justify-content: center;
     padding: 1.5rem;
     
+}
+.single_why_us .card-bottom h3{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #052339;
 }
 .single_why_us .card-bottom p{
     font-size: 1rem;
@@ -340,6 +379,12 @@ header .is-sticky .sticky-area .factory-text{
     font-weight: 400;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
+
+}
+.single_why_us:hover{
+    background-color: #d2cece;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9);
 
 }
 /* =================brand Logo CSS======================= */
@@ -392,6 +437,8 @@ header .is-sticky .sticky-area .factory-text{
 .single-brand{
     padding:  10px 0px;
     margin: 0px 5px;
+}
+.single-brand:hover{
     background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid #005bda;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
@@ -426,9 +473,12 @@ header .is-sticky .sticky-area .factory-text{
     justify-content: center;
     width: 30px;
     height: 30px;
-    background-color: #052339;
+    background-color: rgba(8, 25, 78, 0.5);
     color: #ffff;
     border-radius: 50%;
+}
+.brand-area .owl-prev:hover, .owl-next:hover{
+    background-color: rgba(8, 25, 78, 1);   
 }
 .brand-area .owl-prev{
     position: absolute;
@@ -444,4 +494,87 @@ header .is-sticky .sticky-area .factory-text{
     width: 100px;
     height: 100px;
     color: #04375e;
+}
+/* ========================mission vision area=============== */
+.mission-vission-area{
+    margin: 10px 0px;
+}
+.mission p, .vision p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #121111;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: justify;
+}
+.mission, .vision{
+    padding: 10px;
+    height: 70vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px ;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.mission:before{
+    position: absolute;
+    background-image: url(../img/mission.png);
+    content: '';
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.vision:before{
+    position: absolute;
+    background-image: url(../img/vision.png);
+    content: '';
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.mission-vission-area .mission-vission-head h1{
+    color: #052339;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2.5rem 1.5rem ;
+    text-transform: uppercase;
+}
+/* ===============find us=============== */
+.find_us_area{
+    margin: 25px 0px;
+    background-color: #f5f5e6;
+    width: 100%;
+    height: fit-content;
+}
+.find_us_right .find_us_head h1{
+    color: #052339;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2.5rem 1.5rem ;
+    text-transform: uppercase; 
+}
+.find_us_right .find-us-detail .location p, p i.icofont-duotone{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #121111;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: justify;
+}
+.map-area iframe{
+    width: 100%;
+    height: 70vh;
 }

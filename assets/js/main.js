@@ -4,6 +4,7 @@ $(document).ready(function ($) {
 	  
 	  $(".slider-area").owlCarousel({
 		autoWidth: false,
+		margin:10,
 		items: 1,
 		loop: true,
 		nav: false,

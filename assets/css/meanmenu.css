@@ -138,7 +138,8 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a.mean-expand:hover {
-	background: rgba(0,0,0,0.9);
+	background: #052339;
+	color: #f1f1f1;
 }
 
 .mean-container .mean-push {

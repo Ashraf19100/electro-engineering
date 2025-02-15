@@ -10,7 +10,7 @@ $(document).ready(function ($) {
 		nav: false,
 		dots: true,
 		autoplay: true,
-		autoplayTimeout:2000,
+		autoplayTimeout:2500,
 		responsive: {
 		  0: {
 			items: 1,
@@ -25,6 +25,7 @@ $(document).ready(function ($) {
 	  });
 	  $(".brand-area").owlCarousel({
 		autoWidth: false,
+		margin:2,
 		items: 5,
 		loop: true,
 		nav: true,
@@ -41,7 +42,7 @@ $(document).ready(function ($) {
 			items: 3,
 		  },
 		  1024: {
-			items: 8,
+			items: 7,
 		  },
 		},
 	  });

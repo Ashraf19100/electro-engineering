@@ -10,7 +10,7 @@ $(document).ready(function ($) {
 		nav: false,
 		dots: true,
 		autoplay: true,
-		autoplayTimeout:2500,
+		autoplayTimeout:2800,
 		responsive: {
 		  0: {
 			items: 1,
@@ -270,16 +270,7 @@ function loadProduct() {
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<div class="social-link d-flex align-item-center justify-content-center">
-							<div class="facebook">
-								<a href=""><i class="fa fa-facebook"></i></a>
-							</div>
-							<div class="whats-app">
-								<a href=""><i class="fa fa-whatsapp"></i></a>
-							</div>
-						</div>
 						
-
 
             		</div>
         		</div>

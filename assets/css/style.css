@@ -58,6 +58,7 @@ a:hover {
 .header-top i.fa {
     color: var(--primary);
     padding-right:0;
+    margin-right: 1px;
 }
 .social-links a {
     display: inline-block;
